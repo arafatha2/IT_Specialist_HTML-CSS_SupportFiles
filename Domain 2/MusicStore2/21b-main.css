@@ -10,3 +10,14 @@ p{
     font-weight: bold;
     background-color:aqua;
 }
+#sidenote{
+    font-weight: bold;
+    background-color:aqua;
+}
+a {
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
