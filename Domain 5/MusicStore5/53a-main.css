@@ -1,3 +1,4 @@
+
 ﻿body {
     font-family:'Segoe UI', Tahoma, sans-serif;
     background-color: #f7d2aa
@@ -29,6 +30,8 @@ figcaption {
 #sidenote {
     background-color: #DDDDDD;
     display:inline;
+    border-color: navy;
+    border-style: dashed;
 }
 a {
     text-decoration: none;
