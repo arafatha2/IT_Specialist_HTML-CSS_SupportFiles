@@ -10,4 +10,13 @@ border-width: 4px;
   border-color: forestgreen;
   
 }
-
+#aboutme{
+  border: 2px solid #000000;
+  width: 99%;
+  height: 300px;
+  display: grid;
+  grid: 
+    "sidebar body1"1fr
+  / auto 1fr; 
+  gap: 5px;
+}
