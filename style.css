@@ -18,7 +18,7 @@ border-width: 4px;
   grid: "sidebar body1"1fr
   / auto 1fr; 
   gap: 5px;
-  overflow:auto;
+  overflow:hidden;
 }
 #review{
   border: 2px solid #000000;
