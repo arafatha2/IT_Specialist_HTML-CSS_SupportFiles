@@ -13,7 +13,7 @@ border-width: 4px;
 #aboutme{
   border: 2px solid #000000;
   width: 25%;
-  height: 300px;
+  height: 100%;
   display: grid;
   grid: "sidebar body1"1fr
   / auto 1fr; 
@@ -23,7 +23,7 @@ border-width: 4px;
 #review{
   border: 2px solid #000000;
   width:75%;
-  height: 300px;
+  height: 100%;
   display: grid;
   grid: "sidebar body2"1fr
   / auto 1fr;
@@ -33,13 +33,14 @@ border-width: 4px;
 .infocontainer{
   display:flex;
   overflow:auto;
+  height:fit-content;
 }
 ul{
   list-style-type:none;
   margin:0;
   padding:0;
   overflow:hidden;
-  background-color:#777;
+  background-color:#2f4879;
 }
 
 li a, .dropBtn{
@@ -73,4 +74,12 @@ li.dropDown{
 }
 .dropDown:hover .dropDown-content{
   display:block;
+}
+#domains {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+#topics ul{
+  list-style-type:square rgb=0,0,0;
 }
